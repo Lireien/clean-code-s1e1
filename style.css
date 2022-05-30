@@ -4,7 +4,7 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
-.info__wrapper {
+.info {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -13,18 +13,18 @@
 .info__img {
   width: 100%;
 }
-.info__wrapper .info__link {
+.info .info__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-.info__wrapper {
+.info {
   text-align: center;
 }
 
 }
-.main__wrapper {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -97,6 +97,9 @@
 }
 
 /* Task list */
+.incomleted-todo {
+  margin-top: 1em;
+}
 .task-item {
   overflow: hidden;
   padding: 20px 0;
